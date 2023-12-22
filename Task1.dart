@@ -14,7 +14,7 @@ print(max);
 int min = 0;
 for(int number in numbers){
   if(number<min){
-    max=number;
+    min=number;
   }
 }
 print(min);
@@ -29,10 +29,11 @@ print(sum);
 //4
 double avg = 0;
 int summ = 0;
+int len = numbers.length;
 for(int number in numbers){
   summ+=number;
 }
-avg = summ/12;
+avg = summ/len;
 print(avg);
 
 
